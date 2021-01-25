@@ -1,0 +1,29 @@
+body {
+    background: url(/images/city.png) repeat-x 0 100% fixed,
+    linear-gradient(to top, #f2f1bd, #addbcf, #6bb39f) fixed;
+    animation: city 100s linear infinite;
+    -webkit-animation: city 100s linear infinite;
+}
+@keyframes city {
+    from { background-position: -1000px 150%, 0 0;}
+    to { background-position: 0 150%, 0 0; }
+}
+@-webkit-keyframes city {
+    from { background-position: -1200px 150%, 0 0;}
+    to { background-position: 0 150%, 0 0; }
+}
+main {
+    width: 100%;
+    min-height: 1200px;
+    display: block;
+    margin: auto;
+    background: rgba(255,255,255,0.6);
+    padding: 5px;
+}
+a:link {
+    color: #0000d0; /* Цвет ссылок */
+    padding: 2px; /* Поля вокруг текста */
+}
+a:hover {
+    color: #660d18; /* Цвет ссылки */
+}

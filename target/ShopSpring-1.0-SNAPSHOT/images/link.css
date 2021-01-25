@@ -1,0 +1,32 @@
+.link{
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin: 25px 25px;
+    padding: 3px 3px;
+    font-size: large;
+    font-weight: bold;
+    font-family: "Gabriola", sans-serif;
+    transition: 0.4s ease-in-out;
+    color: black;
+    border-radius: 25px;
+    border: 3px solid #1c1b1b;
+    background: antiquewhite;
+}
+.link:hover {
+    color: antiquewhite;
+    background: #4e4848;
+}
+.link span {
+    opacity: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+.link:hover span {
+    opacity: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #BDB9AB;
+}
